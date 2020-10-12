@@ -1,0 +1,55 @@
+{
+  "doc": "eventador basic schema for aircraft data from ADSB inputs",
+  "type": "record",
+  "name": "adsb",
+  "fields": [
+    {
+      "type": "string",
+      "name": "icao"
+    },
+    {
+      "type": "string",
+      "name": "flight"
+    },
+    {
+      "type": "string",
+      "name": "timestamp_verbose"
+    },
+    {
+      "type": "string",
+      "name": "msg_type"
+    },
+    {
+      "type": "string",
+      "name": "track"
+    },
+    {
+      "type": "string",
+      "name": "counter"
+    },
+    {
+      "type": "string",
+      "name": "lon"
+    },
+    {
+      "type": "string",
+      "name": "lat"
+    },
+    {
+      "type": "int",
+      "name": "altitude"
+    },
+    {
+      "type": "int",
+      "name": "vr"
+    },
+    {
+      "type": "int",
+      "name": "speed"
+    },
+    {
+      "type": "string",
+      "name": "tailnumber"
+    }
+  ]
+}
